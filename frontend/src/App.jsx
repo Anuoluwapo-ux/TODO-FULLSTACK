@@ -4,6 +4,7 @@ import SignUp from "./components/forms/SignUp";
 import SignIn from "./components/forms/SignIn";
 import { RequireAuth } from "./components/Authentication";
 import Todo from "./pages/Todo";
+import { ToastContainer } from "react-toastify";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
             </Route>
           </Routes>
         </BrowserRouter>
+        <ToastContainer/>
       </>
     </div>
   )
