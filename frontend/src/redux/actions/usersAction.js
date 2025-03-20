@@ -13,7 +13,7 @@ export const signIn = (userData) => async (dispatch) => {
         localStorage.setItem('token', data.token);
         localStorage.setItem('user', JSON.stringify(data.user))
         toast.success(data.message)
-        window.location.href = '/home'
+        window.location.href = '/'
     } catch (err) {
         console.log(err.message);
         if (err.response && err.response.data) {
