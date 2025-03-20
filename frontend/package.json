@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://todo-fullstack-backend-nine.vercel.app/api/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
